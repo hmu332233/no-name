@@ -1,0 +1,22 @@
+{
+  "name": "sdk",
+  "version": "0.0.0",
+  "private": true,
+  "source": "index.ts",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "targets": {
+    "sdk": {
+      "isLibrary": false,
+      "context": "browser",
+      "outputFormat": "global"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "tsconfig": "*"
+  }
+}
